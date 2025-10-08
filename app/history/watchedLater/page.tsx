@@ -1,8 +1,7 @@
 import Image from "next/image";
-import Header from ".././components/Header";
-import Sidebar from ".././components/Sidebar";
-import HomeHeader from ".././components/HomeHeader";
 import AllVideos from "./_components/Allvideos";
+import Header from "@/app/components/Header";
+import Sidebar from "@/app/components/Sidebar";
 
 export default function Home() {
   return (
@@ -12,7 +11,9 @@ export default function Home() {
         <div className="flex flex-row w-full max-md:mt-[90px] mt-[145px]">
           <Sidebar />
           <div className="h-full overflow-hidden w-[80%] mx-auto ">
-            <h1 className="text-center text-red-600 text-4xl font-bold ">watch letter</h1>
+            <h1 className="text-center text-red-600 text-4xl font-bold ">
+              watch letter
+            </h1>
             <AllVideos />
           </div>
         </div>

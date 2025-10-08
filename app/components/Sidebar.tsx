@@ -2,10 +2,6 @@
 import Image from "next/image";
 import React from "react";
 import sideBar from "../../public/jam_menusideBar1.png";
-import homeIcon from "../../public/sideBar/VectorhomeIcon.png";
-import shortsImgae from "../../public/sideBar/Groupshorts.png";
-import channelsImgae from "../../public/sideBar/Group 13channels.png";
-import { SiYoutubeshorts } from "react-icons/si";
 import { AiOutlineHome } from "react-icons/ai";
 import { GoPeople } from "react-icons/go";
 import {
@@ -17,8 +13,7 @@ import { FaHistory, FaRegArrowAltCircleDown } from "react-icons/fa";
 import { HiOutlineFire } from "react-icons/hi2";
 import { IoSettingsOutline } from "react-icons/io5";
 import { CgData } from "react-icons/cg";
-import { link } from "fs";
-import { Linefont } from "next/font/google";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
