@@ -8,9 +8,7 @@ const HomeHeader = () => {
     {
       name: "The hole of Quran",
     },
-    {
-      name: "All",
-    },
+
     {
       name: "Amazing Nasheed Compilation",
     },
@@ -68,7 +66,7 @@ const HomeHeader = () => {
       {names.map((video, index) => (
         <div
           key={index}
-          className="px-3 py-1 text-nowrap bg-[#FF0000] mx-2 rounded-2xl"
+          className="px-2 lg:px-3 max-md:text-[14px] py-[1px]  lg:py-1 text-nowrap bg-[#FF0000] mx-2 rounded-2xl cursor-pointer"
         >
           {video.name}
         </div>
